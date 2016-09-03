@@ -294,4 +294,12 @@ color:#fff;
             }
         }
 
-
+.my-footer
+{
+	background:  #2c3032;
+	color: #fff;
+	border-top: solid #f44236 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	bottom: 0;
+}
