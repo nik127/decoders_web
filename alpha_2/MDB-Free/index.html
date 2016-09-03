@@ -26,14 +26,67 @@
     <link rel="stylesheet" href="css/font-awesome1.min.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap1.min.css" rel="stylesheet">
+   <link href="css/bootstrap1.min.css" rel="stylesheet">
 
     <!-- Material Design Bootstrap -->
     <link href="css/mdb1.min.css" rel="stylesheet">
 	
 </head>
 
-<body>
+<body>    
+ 
+		 <!-- Modal Login -->
+								<div class="modal fade modal-ext" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<!--Content-->
+										<div class="modal-content">
+										   
+											<!--Header-->
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+												<h3><i class="fa fa-user"></i> Login</h3>
+											</div>
+											
+											<!--Body-->
+											<div class="modal-body">
+												<div class="md-form">
+													<i class="fa fa-envelope prefix"></i>
+													<input type="text" id="form2" class="form-control">
+													<label for="form2">Your email</label>
+												</div>
+
+												<div class="md-form">
+													<i class="fa fa-lock prefix"></i>
+													<input type="password" id="form3" class="form-control">
+													<label for="form3">Your password</label>
+												</div>
+												<div class="text-xs-center">
+													<button class="btn btn-primary btn-lg">Login</button>
+												</div>
+											</div>
+											
+											<!--Footer-->
+											<div class="modal-footer" >
+												<div class="options">
+													
+													<p> <a href="#">Forgot Password?</a></p>
+												</div>
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+										<!--/.Content-->
+									</div>
+								</div>
+
+
+              <!-- Modal Login -->
+
+
+
+
+
 <!--Navigation-->
 													<nav class="navbar navbar-fixed-top z-depth-1 scrolling-navbar" role="navigation">
 														<div class="container">
@@ -56,11 +109,11 @@
 																		<ul class="dropdown-menu pull-right"  role="menu">
 																			<li><a href="#">Aptitude</a></li>
 																			<li><a href="#">Technical</a></li>
-																			<li><a href="#">HR Development</a></li>
+																			<li><a href="#">Interview Experiences</a></li>
 																			<li class="divider"></li>
 																			<li><a href="#">Members</a></li>
 																			<li class="divider"></li>
-																			<li><a href="#">Alumni and Experiences</a></li>
+																			<li><a href="#">Testimonials</a></li>
 																		</ul>
 																	</li>
 																</ul>
@@ -95,13 +148,16 @@
 									
 								
 								<div class="row text-center welcome">
-									<div class="col-md-12"><h1 class="h1-responsive">Welcome to the official website of<strong>Decoders</strong></h1></div>
+									<div class="col-md-12"><h1 class="h1-responsive"  >Welcome to the official website of<strong>Decoders</strong></h1></div>
 									<p>Where coding begins all over again</p>
-									<a class="btn btn-primary" data-toggle="modal" data-target="#modalForm">Login</a>
+									
+									<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalForm">
+										Member Login
+									</button>
 									</div>	
 								<div class="cover blackLight">
 										<div class="text-center">
-											<p>Companies our alumni have gone on to work for:</p>
+											<p>Companies our alumni work for:</p>
 										</div>
 								</div>
 									
@@ -143,11 +199,13 @@
 								<div class="row text-center welcome">
 									<div class="col-md-12"><h1 class="h1-responsive">Welcome to the official website of<strong>Decoders</strong></h1></div>
 									<p>Where coding begins all over again</p>
-									<a class="btn btn-primary" data-toggle="modal" data-target="#modalForm">Login</a>
+									<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalForm">
+										Member Login
+									</button>
 								</div>	
 								<div class="cover blackLight">
 										<div class="text-center">
-											<p>Companies our alumni have gone on to work for:</p>
+											<p>Companies our alumni work for:</p>
 										</div>
 								</div>
 									
@@ -182,11 +240,13 @@
 								<div class="row text-center welcome">
 									<div class="col-md-12"><h1 class="h1-responsive">Welcome to the official website of<strong>Decoders</strong></h1></div>
 									<p>Where coding begins all over again</p>
-									<a class="btn btn-primary" data-toggle="modal" data-target="#modalForm">Login</a>
+									<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalForm">
+										Member Login
+									</button>
 								</div>	
 								<div class="cover blackLight">
 										<div class="text-center">
-											<p>Companies our alumni have gone on to work for:</p>
+											<p>Companies our alumni work for:</p>
 										</div>
 								</div>
 									
@@ -210,14 +270,14 @@
 		<!-- Alumni images bar-->
 		<section id="logos">
 							<ul class="list-unstyled">
-														<li ><img src="img/logo_zscaler.png" alt="The New York TImes"></li>
-														<li ><img src="img/logo_redbus.png" alt="Nike"></li>
-														<li><img src="img/logo_samsung.png" alt="Microsoft"></li>
-														<li ><img src="img/logo_sap.png" alt="Google"></li>
-														<li><img src="img/logo_oracle.png" alt="Bank of America"></li>
-														<li><img src="img/logo_fire_eye.png" alt="Apple"></li>
-														<li><img src="img/logo_pega.png" alt="Boeing"></li>
-														<li"><img src="img/logo_akamai.png" alt="Red Bull"></li>
+														<li ><img src="img/logo_zscaler.png" alt="ZeeScaler"></li>
+														<li ><img src="img/logo_redbus.png" alt="Redbus"></li>
+														<li><img src="img/logo_samsung.png" alt="Samsung"></li>
+														<li ><img src="img/logo_sap.png" alt="SAP Labs"></li>
+														<li><img src="img/logo_oracle.png" alt="Oracle"></li>
+														<li><img src="img/logo_fire_eye.png" alt="Fire Eye"></li>
+														<li ><img src="img/logo_pega.png" alt="Pega Systems"></li>
+														<li class="hidden-xs"><img src="img/logo_akamai.png" alt="Akamai"></li>
 							</ul>
 		</section>
         <!--/ .Alumni images bar-->
