@@ -1,0 +1,26 @@
+<div id="outer">
+    <div id="inner">
+        content
+    </div>
+</div>
+
+
+CSS:
+
+#outer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#outer::before {
+    display: block;
+    content: "";
+    height: 10%;
+}
+#outer::after {
+    display: block;
+    content: "";
+    height: 10%;
+}
+#inner {
+    height: 80%;
+}
