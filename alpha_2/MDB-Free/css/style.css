@@ -9,7 +9,7 @@
 {
 	display: block;
     content: "";
-    height: 30%;
+    height: 20%;
 }
 .tagline::before
 {
@@ -252,7 +252,7 @@ width:100%;
   display: block;
 }
 
-.red {
+.rd {
 	
 	background-color: rgba(119, 0, 11, 0.85);
 }
@@ -305,7 +305,7 @@ color:#fff;
 {
 	background:  #2c3032;
 	color: #fff;
-	border-top: solid #f44236 10px;
+	border-top: solid #7c0404 10px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	bottom: 0;
